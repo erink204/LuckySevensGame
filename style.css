@@ -1,0 +1,63 @@
+form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+input, button {
+    font-size: 18px;
+	background-color: #CEF6CE;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #989898;
+    padding: 6px;
+    font-style: normal;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #FFFFFF;
+    
+  }
+  
+tbody tr:nth-child(odd) {
+    background-color: #d9d9d9;
+  }
+
+td, th {
+    text-align: left;
+    padding: 5px;
+    border: 2px solid black;
+    min-width:60px;
+    margin: 0px;
+}
+
+.body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.line {
+    width: 33%;
+	padding: 12px;
+}
+
+.moneyInput {
+    border: 0px inset #ccc;
+}
+
+.submit {
+  background-color: #ivory;
+  border: solid;
+}
+
+.label {
+    font-size: 20px;
+}
+
